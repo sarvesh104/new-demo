@@ -16,35 +16,35 @@
 }
 .main-nav{
   margin-top: 15px;
-  width: 80%;
-  height: 60px;
+  width: 84%;
+  height: 40px
     /* background-color: aqua; */
 }
 .login{
-  font-size: 20px;
-width: 125px;
-
-height: 35px;
-text-align: center;
-padding-top: 5px;
-border: 2px solid #ECECEC;
-border-radius: 2px;
-opacity: 1;
+  font-size: 15px;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  padding-top: 6px;
+  border: 2px solid #ECECEC;
+  border-radius: 2px;
+  opacity: 1;
+  font-weight: 700;
 }
 
 .get-app{
-  margin-left: 50px;
-  margin-right: -350px;
+  margin-left: 37px;
+  margin-right: -345px;
   /* padding: 10px 50px; */
   color: #ffffff;
   width: 125px;
   text-align: center;
   padding-top: 7px;
-  font-size: 20px;
-
+  font-size: 12px;
   background: #0F6AF4 0% 0% no-repeat padding-box;
-  border-radius: 6px;
+  border-radius: 3px;
   opacity: 1;
+  font-weight: 700;
 
 }
 
@@ -54,13 +54,13 @@ opacity: 1;
 font-weight: bold;
 letter-spacing: 2.88px;
 color: #08121C; 
-font-size: 18px;
+font-size: 13px;
 opacity: 1;
 }
 
 .intro-main{
   margin-top: 6%;
-  width: 100%;
+  width: 88%;
   margin-left: 12%;
   height: 1080px;
   opacity: 1;
@@ -70,43 +70,151 @@ opacity: 1;
     background: transparent url("images/introbg.png") no-repeat;
   background-position: 100%;
   background-size: 100%;
-  height: 900px;
+  height: 733px;
   }
 
   .mid-img-intro{
     display: flex;
-    margin-top: 15%;
+    margin-top: 26%;
     float: right;
-    margin-right: 13%;
-    width: 690px;
-    height: 448px;
-    background: transparent url('images/intromob.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    margin-right: 22%;
+ 
   
   }
   
 .text-intro-2{
-  width: 414px;
-  height: 103px;
-  /* UI Properties */
   text-align: left;
-  font: normal normal 900 78px/142px Roboto;
+  font: normal normal 900 44px Roboto;
   letter-spacing: 1.56px;
   color: #4472F1;
+  margin-top: 8px;
   opacity: 1;
-  padding-bottom:10px ;
+  padding-bottom: 10px;
 }
 .text-intro-3{
- 
-
-width: 555px;
-height: 268px;
-
-text-align: left;
-font: normal normal normal 30px/50px Roboto;
-letter-spacing: 0.6px;
-color: #08121C;
-opacity: 1;
-margin-top: 50px;
-font-weight: 200;
+  width: 100%;
+  height: 268px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #08121C;
+  opacity: 1;
+  margin-top: 16px;
+  
 }
+.intro-text{
+  width: 35%;
+  display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 24%;
+    margin-left: 83px;
+}
+
+.about-main{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  float: left;
+  margin-top: 10%;
+
+}
+.about-img{
+  display: flex;
+  margin-right: 16%;
+float: right;
+opacity: 1;
+margin-top: 10%;
+width: 200px;
+
+}
+.about{
+  width: 80%;
+  height: 1000px;
+  
+}
+.about-main h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+.about-text{display: flex;
+  width: 444px;
+  height: 421px;
+font-weight: 300;  text-align: left;
+  font: normal normal normal 20px/34px Roboto;
+  letter-spacing: 0.48px;
+  color: #737373;
+  opacity: 1;
+  }
+/* about page style ends here */
+
+
+.answer-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  width: 1920px;
+height: 1319px;
+/* UI Properties */
+background: #EAF1FD 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+
+
+.text-ans1{
+margin-top: 5%;
+  width: 70%;
+  height: 165px;
+  font-size: 30px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 52px/67px Roboto;
+  letter-spacing: 2px;
+  color: #3D3D3D;
+  opacity: 1;
+  
+}
+
+.im-ans{
+  width: 920px;
+height: 499px;
+}
+.text-ans2{
+  
+  width: 920px;
+  height: 135px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 20px/34px Roboto;
+  letter-spacing: 0.48px;
+  color: #737373;
+  opacity: 1;
+  
+}
+
+.text-ans3{
+  margin-top: 2%;
+  width: 920px;
+height: 135px;
+  text-align: center;
+  font: normal normal normal 20px/34px Roboto;
+  letter-spacing: 0.48px;
+  color: #737373;
+  opacity: 1;
+  
+
+}
+/* .Container{
+  margin: 0;
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;margin: 0 2rem 0 2rem;
+  display: flex;
+  justify-content:center ;
+}
+ */
+
+
+
